@@ -50,4 +50,8 @@ defmodule ChirpWeb.PostLive.Index do
   def handle_info({:post_created, post}, socket) do
     {:noreply, update(socket, :posts, fn posts ->  [post | posts] end)}
   end
+
+  def handle_info({:post_updated, post}, socket) do
+    {:noreply, update(socket, :posts, fn posts ->  [post | posts] end)}
+  end
 end
