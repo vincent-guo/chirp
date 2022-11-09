@@ -1,5 +1,7 @@
 # Chirp
 
+This is a tutorial by Chris McCord (https://youtu.be/MZvmYaFkNJI).
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
